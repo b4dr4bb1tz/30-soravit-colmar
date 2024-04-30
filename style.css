@@ -35,7 +35,7 @@ div .button{
     font-size:  1.5rem;
     cursor: pointer;
     border: 0px;
-    background: transparent;
+    background: rgb(7, 193, 239);
     position: relative;
 }
 
