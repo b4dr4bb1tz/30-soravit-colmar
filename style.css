@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  
 }
 
 * {
@@ -12,33 +11,31 @@
 .hero-img img {
   width: 100%;
   height: 100%;
-
 }
 
 .header {
-    display: flex;
+  display: flex;
 }
 
-.logo-holder{
-    display: flex;
-    align-content: space-between;
+.logo-holder {
+  display: flex;
+  align-content: space-between;
 }
 
-.menu{
-    display: flex;
-    justify-content: flex-end;
+.menu {
+  display: flex;
+  justify-content: flex-end;
 }
 
-
-div .button{
-    padding: 20px 50px;
-    font-size:  1.5rem;
-    cursor: pointer;
-    border: 0px;
-    background: rgb(7, 193, 239);
-    position: relative;
+div .button {
+  padding: 20px 50px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  border: 0px;
+  background: rgb(10, 172, 212);
+  position: relative;
 }
 
-.hero{
-    display: flex;
+.hero {
+  display: flex;
 }
