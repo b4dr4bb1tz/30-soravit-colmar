@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: sans-serif;
 }
 
 * {
@@ -19,12 +20,27 @@
 
 .logo-holder {
   display: flex;
-  align-content: space-between;
+  align-content: center;
+  justify-content: center;
 }
 
 .menu {
   display: flex;
-  justify-content: flex-end;
+  align-content: space-between;
+}
+.menu-1,
+.menu-2,
+.menu-3,
+.menu-4 {
+  padding: 16px;
+}
+
+.hero-text {
+}
+
+.menu li {
+  display: flex;
+  list-style: display none;
 }
 
 div .button {
@@ -38,4 +54,41 @@ div .button {
 
 .hero {
   display: flex;
+}
+
+a:hover {
+  color: rgb(26, 2, 186);
+}
+
+.logo-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+a {
+  text-decoration: none;
+}
+
+.list-menu {
+  padding: 10px 10px;
+  margin: 0 auto;
+  align-content: space-around;
+  justify-content: space-between;
+}
+
+.logo-pack {
+  display: flex;
+  padding: 10px 10px;
+  margin: 0 auto;
+}
+
+.footer-class {
+  display: flexbox;
+  font-weight: thin;
+  visibility: 0.5%;
+}
+
+.authorise {
+  display: flex;
+  align-content: end;
 }
