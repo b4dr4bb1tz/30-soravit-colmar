@@ -44,6 +44,7 @@
 .menu li {
   display: flex;
   list-style: display none;
+  
 }
 
 div .button {
@@ -82,7 +83,7 @@ a {
 
 .logo-pack {
   display: flex;
-  padding: 10px 10px;
+  padding: 1px;
   margin: 0 auto;
 }
 
@@ -95,4 +96,20 @@ a {
 .authorise {
   display: flex;
   align-content: end;
+}
+
+.thesis-content{
+    display: flex;
+}
+
+.thesis-text {
+    display: flex;
+    
+}
+
+.logo-text p{
+    display: flex;
+    padding: 16px 24px;
+    margin: 0 auto;
+    align-items: center;
 }
